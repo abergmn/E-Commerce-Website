@@ -1,5 +1,18 @@
 body header {
     justify-items: center;
+    justify-content: center;
+}
+
+body header nav {
+    display: flex;
+    gap: 1rem;
+}
+
+body header nav h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
 }
 
 body header nav ul {
@@ -12,4 +25,14 @@ body header nav ul {
 
 #banner-image {
     display: flex;
+}
+
+.sepr {
+    display: block;
+    background-color: #ffffff;
+    width: 0.15rem;
+    height: auto;
+    max-height: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
