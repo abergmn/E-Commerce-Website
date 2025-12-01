@@ -4,28 +4,80 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Acme Widgets</title>
+        <title>Sweet Crust Bakery</title>
 
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/home.css">
     </head>
     <body>
         <header>
             <nav>
-                <h1>Acme Widgets</h1>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <h1>Sweet Crust Bakery</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
             </nav>
         </header>
 
-        <section class="hero">
-            <h2>Next-Gen Widget</h2>
-            <p>Smart, sleek, and reliable.</p>
-            <a href="#pricing" class="btn">Shop Now</a>
+        <section class="hero bakery-hero">
+            <h2>Freshly Baked Goodness Every Day</h2>
+            <p>Handcrafted breads, cakes, and pastries made with love.</p>
+            <a href="#pricing" class="btn">View Menu</a>
         </section>
 
+        <section class="products">
+            <h2>Customer Favorites</h2>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Cupcakes" alt="Cupcakes">
+                <h3>Signature Cupcakes</h3>
+                <p>Moist, flavorful, and beautifully decorated for any occasion.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Artisan+Bread" alt="Bread">
+                <h3>Artisan Bread</h3>
+                <p>Fresh sourdough baked daily using traditional methods.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Custom+Cakes" alt="Cake">
+                <h3>Custom Cakes</h3>
+                <p>Perfectly designed cakes for birthdays, weddings, and celebrations.</p>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <h2>Menu & Pricing</h2>
+
+            <div class="price-card">
+                <h3>Box of Cupcakes (6)</h3>
+                <p class="price">$14.99</p>
+                <p>Choose from vanilla, chocolate, and red velvet.</p>
+                <a href="contact.html" class="btn">Order Now</a>
+            </div>
+
+            <div class="price-card">
+                <h3>Artisan Sourdough</h3>
+                <p class="price">$6.50</p>
+                <p>Our signature bread, baked fresh every morning.</p>
+                <a href="contact.html" class="btn">Order Now</a>
+            </div>
+
+            <div class="price-card">
+                <h3>Custom Cake</h3>
+                <p class="price">Starts at $40</p>
+                <p>Designed for your special event.</p>
+                <a href="contact.html" class="btn">Order Now</a>
+            </div>
+        </section>
+        
         <footer>
-            <p>&copy; <span id="year"></span> Aaron Bergmann</p>
+            <p>&copy; <span id="year"></span> Sweet Crust Bakery</p>
         </footer>
 
         <script src="js/script.js"></script>

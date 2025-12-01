@@ -1,7 +1,7 @@
 // get/set year in footer
 document.getElementById("year").innerText = new Date().getFullYear();
 
-// mobile menu toggle
+/* mobile menu toggle
 const nav = document.querySelector("nav ul");
 const menuBtn = document.createElement("button");
 
@@ -20,3 +20,5 @@ document.querySelectorAll("a[href^='#']").forEach((anchor) => {
             .scrollIntoView({ behavior: "smooth" });
     });
 });
+
+*/

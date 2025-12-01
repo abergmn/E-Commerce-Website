@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Acme Widgets | Contact</title>
+        <title>Contact - Sweet Crust Bakery</title>
 
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
             <nav>
-                <h1>Acme Widgets</h1>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <h1>Sweet Crust Bakery</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
             </nav>
         </header>
 
-        <section>
-            <!-- ... -->
+        <section class="content">
+            <h2>Contact Us</h2>
+            <p>Have a question or want to place a custom order? Send us a message!</p>
+
+            <form action="contact.php" method="POST" class="form-box">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
         </section>
 
         <footer>
-            <p>&copy; <span id="year"></span> Aaron Bergmann</p>
+            <p>&copy; <span id="year"></span> Sweet Crust Bakery</p>
         </footer>
-
-        <script src="js/script.js"></script>
     </body>
 </html>

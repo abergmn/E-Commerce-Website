@@ -1,0 +1,15 @@
+body header {
+    justify-items: center;
+}
+
+body header nav ul {
+    padding: 0;
+}
+
+.hero {
+    justify-items: center;
+}
+
+#banner-image {
+    display: flex;
+}

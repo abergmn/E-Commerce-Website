@@ -1,10 +1,12 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
+    background: #fff8f0;
+    color: #5a4633;
 }
 
 header {
-    background: #0077cc;
+    background: #d98c5f;
     color: white;
     padding: 1rem;
 }
@@ -15,19 +17,55 @@ nav ul {
     list-style: none;
 }
 
-.hero {
-    text-align: center;
-    padding: 4rem;
-    background: #f2f2f2;
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.bakery-hero {
+    background: url("../img/istockphoto.jpg") center/cover no-repeat;
+    color: white;
+    padding: 5rem 1rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 .btn {
     display: inline-block;
-    padding: 0.5rem 1rem;
-    background: #0077cc;
+    padding: 0.6rem 1rem;
+    background: #d98c5f;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+
+/* sections */
+.products, .pricing, .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-card, .price-card, .form-box {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.price {
+    font-size: 2rem;
+    color: #d98c5f;
+}
+
+/* Form */
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #d1c7bd;
+    background: #fffaf5;
 }
 
 @media (max-width: 768px) {
